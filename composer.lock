@@ -1,0 +1,122 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0aa64d6e87f6ba493264d56dc172237c",
+    "packages": [
+        {
+            "name": "baygroup/php-oauth1",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/baygroup/php-oauth1.git",
+                "reference": "55e36c6fdee33838a5ca7dee5f56408f53f8c189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/baygroup/php-oauth1/zipball/55e36c6fdee33838a5ca7dee5f56408f53f8c189",
+                "reference": "55e36c6fdee33838a5ca7dee5f56408f53f8c189",
+                "shasum": ""
+            },
+            "require": {
+                "php-curl-class/php-curl-class": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BayGroup\\OAuth1\\": "src/"
+                },
+                "files": [
+                    "oauth_helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bathulah Mahir",
+                    "email": "bathulah@capitalbay.com.my"
+                }
+            ],
+            "description": "PHP OAuth 1",
+            "time": "2018-11-12T02:48:42+00:00"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "8.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "3193b41dcd19025ad579ea26eb48774421d84708"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/3193b41dcd19025ad579ea26eb48774421d84708",
+                "reference": "3193b41dcd19025ad579ea26eb48774421d84708",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "API-Client",
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http-client",
+                "http-proxy",
+                "json",
+                "php",
+                "php-curl",
+                "php-curl-library",
+                "proxy",
+                "requests",
+                "restful",
+                "web-scraper",
+                "web-scraping ",
+                "web-service",
+                "xml"
+            ],
+            "time": "2018-09-09T07:05:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

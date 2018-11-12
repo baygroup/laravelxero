@@ -1,0 +1,19 @@
+{
+    "name": "baygroup/laravel-xero",
+    "description": "Laravel Xero",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bathulah Mahir",
+            "email": "bathulah@capitalbay.com.my"
+        }
+    ],
+    "autoload" :{
+        "psr-4":{
+            "BayGroup\\Xero\\" : "src/"
+        }
+    },
+    "require": {
+        "baygroup/php-oauth1": "^1.1"
+    }
+}
